@@ -21,7 +21,7 @@ sudo curl -fsSL https://get.casaos.io | sudo bash
 ```
 This command uses curl to fetch the installation script from the CasaOS website and pipes it to sudo bash for execution with root privileges. 
 1. Wait for Installation to Complete: The script will handle downloading necessary packages, setting up Docker, and installing CasaOS. This may take some time depending on your internet speed and system resources. 
-2. Access CasaOS: Once the installation is complete, you can access the CasaOS web interface by opening a web browser and navigating to ***http://localhost*** or the IP address of your server followed by :8888. 
+2. Access CasaOS: Once the installation is complete, you can access the CasaOS web interface by opening a web browser and navigating to ***http://localhost*** or the IP address of your server. 
 3. Create User Account: You will be prompted to create a username and password for your CasaOS account. 
 4. Start Using CasaOS: After logging in, you can begin exploring the CasaOS interface and installing applications.
 
