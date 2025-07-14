@@ -3,9 +3,9 @@
 ## System
 **System information**
 `uname -a` : Displays all system information.
-hostnamectl : Shows current hostname and related details.
-lscpu : Lists CPU architecture information.
-timedatectl status : Shows system time.
+`hostnamectl` : Shows current hostname and related details.
+`lscpu` : Lists CPU architecture information.
+`timedatectl status` : Shows system time.
 ___
 **System monitoring and management**
 top : Displays real-time system processes.
