@@ -2,7 +2,8 @@
 Technische Anleitungen für Interne Dinge und Linux
 
 # Inhaltsverzeichniss
-
+## Allgeneines
+[Tickets Erstellen](https://github.com/MartinCareJestl/careittech/blob/main/SupportTicketErstellen.md)
 ## Linux
 ### Allgemein
 [Ubuntu CLI Cheat-Sheet](https://github.com/MartinCareJestl/careittech/blob/main/Ubuntu-CLI-cheat-sheet.md)\
