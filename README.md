@@ -4,6 +4,7 @@ Technische Anleitungen für Allgemeine Dinge und Linux
 # Inhaltsverzeichniss
 ## Allgeneines
 [Tickets Daten](https://github.com/MartinCareJestl/careittech/blob/main/dokumente/SupportTicketErstellen.md)
+[Teamviever zum Labor Linux](https://github.com/MartinCareJestl/careittech/blob/main/dokumente/Linux-Rechner-Im-Labor.md)
 ## Linux
 ### Allgemein
 [Ubuntu CLI Cheat-Sheet](https://github.com/MartinCareJestl/careittech/blob/main/dokumente/Ubuntu-CLI-cheat-sheet.md)\
