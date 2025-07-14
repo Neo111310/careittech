@@ -1,5 +1,5 @@
 # careittech
-Technische Anleitungen für Interne Dinge und Linux
+Technische Anleitungen für Allgemeine Dinge und Linux
 
 # Inhaltsverzeichniss
 ## Allgeneines
