@@ -8,54 +8,54 @@
 `timedatectl status` : Shows system time.
 ___
 **System monitoring and management**
-top : Displays real-time system processes.
-htop : An interactive process viewer (needs installation).
-df -h : Shows disk usage in a human-readable format.
-free -m : Displays free and used memory in MB.
-kill <process id> : Terminates a process.
+`top` : Displays real-time system processes.
+`htop` : An interactive process viewer (needs installation).
+`df -h` : Shows disk usage in a human-readable format.
+`free -m` : Displays free and used memory in MB.
+`kill <process id>` : Terminates a process.
 ___
 **Running commands**
-<command> & : Runs command in the background.
-jobs : Displays background commands.
-fg <command number> : Brings command to the foreground.
+`<command> &` : Runs command in the background.
+`jobs` : Displays background commands.
+`fg <command number>` : Brings command to the foreground.
 ___
 **Service management** 
-sudo systemctl start <service> : Starts a service.
-sudo systemctl stop <service> : Stops a service
-sudo systemctl status <service> : Checks the status of a service.
-sudo systemctl reload <service> : Reloads a service’s configuration without interrupting its operation.
-journalctl -f : Follows the journal, showing new log messages in real time.
-journalctl -u <unit_name> : Displays logs for a specific systemd unit.
+`sudo systemctl start <service>` : Starts a service.
+`sudo systemctl stop <service>` : Stops a service
+`sudo systemctl status <service>` : Checks the status of a service.
+`sudo systemctl reload <service>` : Reloads a service’s configuration without interrupting its operation.
+`journalctl -f` : Follows the journal, showing new log messages in real time.
+`journalctl -u <unit_name>` : Displays logs for a specific systemd unit.
 ___
 **Cron jobs and scheduling**
-crontab -e : Edits cron jobs for the current user.
-crontab -l : Lists cron jobs for the current user.
+`crontab -e` : Edits cron jobs for the current user.
+`crontab -l` : Lists cron jobs for the current user.
 
 ## Files
 **File management**
-ls : Lists files and directories.
-touch <filename> : Creates an empty file or updates the last accessed date.
-cp <source> <destination> : Copies files from source to destination.
-mv <source> <destination> : Moves files or renames them.
-rm <filename> : Deletes a file.
+`ls` : Lists files and directories.
+`touch <filename>` : Creates an empty file or updates the last accessed date.
+`cp <source> <destination>` : Copies files from source to destination.
+`mv <source> <destination>` : Moves files or renames them.
+`rm <filename>` : Deletes a file.
 ___
 **Directory navigation**
-pwd : Displays the current directory path.
-cd <directory> : Changes the current directory.
-mkdir <dirname> : Creates a new directory.
+`pwd` : Displays the current directory path.
+`cd <directory>` : Changes the current directory.
+`mkdir <dirname>` : Creates a new directory.
 ___
 **File permissions and ownership**
-chmod [who][+/-][permissions] <file> : Changes file permissions.
-chmod u+x <file> : Makes a file executable by its owner.
-chown [user]:[group] <file> : Changes file owner and group.
+`chmod [who][+/-][permissions] <file>` : Changes file permissions.
+`chmod u+x <file>` : Makes a file executable by its owner.
+`chown [user]:[group] <file>` : Changes file owner and group.
 ___
 **Searching and finding**
-find [directory] -name <search_pattern> : Finds files and directories.
-grep <search_pattern> <file> : Searches for a pattern in files.
+`find [directory] -name <search_pattern>` : Finds files and directories.
+`grep <search_pattern> <file>` : Searches for a pattern in files.
 ___
 **Archiving and compression**
-tar -czvf <name.tar.gz> [files] : Compresses files into a tar.gz archive.
-tar -xvf <name.tar.[gz|bz|xz]> [destination] : Extracts a compressed tar archive.
+`tar -czvf <name.tar.gz> [files]` : Compresses files into a tar.gz archive.
+`tar -xvf <name.tar.[gz|bz|xz]> [destination]` : Extracts a compressed tar archive.
 **Text editing and processing**
 nano <file> : Opens a file in the Nano text editor.
 cat <file> : Displays the contents of a file.
