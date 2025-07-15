@@ -7,6 +7,7 @@ Technische Anleitungen für Allgemeine Dinge und Linux
 - [Teamviever zum Labor Linux](https://github.com/MartinCareJestl/careittech/blob/main/dokumente/Linux-Rechner-Im-Labor.md)
 ## Linux
 - [postfix SMTP Install](https://github.com/MartinCareJestl/careittech/blob/main/dokumente/postfix-smtp-install.md)
+- [Proxmox Messages an Discord](https://github.com/MartinCareJestl/careittech/blob/main/dokumente/proxmox-discord.md)
 ### Allgemein
 - [Ubuntu CLI Cheat-Sheet](https://github.com/MartinCareJestl/careittech/blob/main/dokumente/Ubuntu-CLI-cheat-sheet.md)
 - [NGINX Default User Settings](https://github.com/MartinCareJestl/careittech/blob/main/dokumente/Nginx-Wisssen.md)
