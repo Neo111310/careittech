@@ -16,3 +16,5 @@ Technische Anleitungen für Allgemeine Dinge und Linux
 - [MAC-OS Standard Email Ändern](https://github.com/MartinCareJestl/careittech/blob/main/dokumente/Apple-Standard-Mail-to-Outlook.md)
 ## Windows
 ## M365
+## Diverses
+- [Virtualisierung und Load Balancing](https://github.com/MartinCareJestl/careittech/tree/main/dokumente)
