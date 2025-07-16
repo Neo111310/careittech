@@ -48,6 +48,7 @@ Restarte caddy
 ```
 systemctl restart caddy
 ```
+## Das ist so weit alles
 
 [1] https://cloudinfrastructureservices.co.uk/setup-caddy-reverse-proxy-on-ubuntu-in-azure-aws-gcp/
 [2] https://pimylifeup.com/ubuntu-caddy/
