@@ -35,8 +35,9 @@ Nach der Installation startet Caddy automatisch als Dienst und ist bereit für K
 caddy version
 ```
 Damit ist Caddy betriebsbereit. Du kannst jetzt den Reverse-Proxy oder andere Funktionen konfigurieren.\
-
-Das Konfig File ist unter **/etc/caddy/Caddyfile**
+**Vorteile:**\
+Automatische SSL-Konfiguration: Sobald du eine echte Domain nutzt und die DNS-Einträge richtig gesetzt sind, holt Caddy automatisch ein gültiges SSL-Zertifikat (Let's Encrypt/ZeroSSL) und kümmert sich um die Erneuerung
+Das Konfig File ist unter **/etc/caddy/Caddyfile** [Zusatzinfo](https://blog.ordix.de/caddy-reverse-proxy-in-einfach) 
 ```
 deinedomain.de {
   reverse_proxy /api/* localhost:5000
