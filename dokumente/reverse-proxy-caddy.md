@@ -6,6 +6,12 @@
 
 # Installations Hilfe Ubuntu
 
+## Vorbereitungen
+- Domainamen als A Record im DNS eintragen
+- Host muss am Port 80 und 443 Erreichbar sein aus dem Internet
+
+ää Installation
+
 Um **Caddy auf Ubuntu zu installieren**, folge diesen Schritten:
 
 1. **GPG-Key für das Caddy-Repository hinzufügen:**
