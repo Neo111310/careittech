@@ -4,3 +4,58 @@
 [Quick Start Caddy](https://caddyserver.com/docs/quick-starts/reverse-proxy)\
 [Der Blog Beitrag](https://jusec.me/caddy/)
 
+# Installations Hilfe Ubuntu
+
+Um **Caddy auf Ubuntu zu installieren**, folge diesen Schritten:
+
+1. **GPG-Key für das Caddy-Repository hinzufügen:**
+   ```bash
+   curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/gpg.key' | sudo gpg --dearmor -o /usr/share/keyrings/caddy-stable-archive-keyring.gpg
+   ```
+2. **Caddy-Repository zu den Paketquellen hinzufügen:**
+   ```bash
+   curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/debian.deb.txt' | sudo tee /etc/apt/sources.list.d/caddy-stable.list
+   ```
+3. **Paketliste aktualisieren:**
+   ```bash
+   sudo apt update
+   ```
+4. **Caddy installieren:**
+   ```bash
+   sudo apt install caddy
+   ```
+   
+Nach der Installation startet Caddy automatisch als Dienst und ist bereit für Konfiguration und Einsatz[2][4].
+
+**Optional, aber empfohlen:**  
+- Stelle sicher, dass Ports **80** und **443** in deiner Firewall geöffnet sind, damit Caddy HTTP- und HTTPS-Traffic empfangen kann[2][4].
+
+**Anzeigen der installierten Version zur Überprüfung:**
+```bash
+caddy version
+```
+Damit ist Caddy betriebsbereit. Du kannst jetzt den Reverse-Proxy oder andere Funktionen konfigurieren.\
+
+Das Konfig File ist unter **/etc/caddy/Caddyfile**
+```
+deinedomain.de {
+  reverse_proxy /api/* localhost:5000
+}
+```
+Diesre eintrag ins Config File ***! Vorsicht UUNerlin nicht Dash !***
+
+Restarte caddy
+```
+systemctl restart caddy
+```
+
+[1] https://cloudinfrastructureservices.co.uk/setup-caddy-reverse-proxy-on-ubuntu-in-azure-aws-gcp/
+[2] https://pimylifeup.com/ubuntu-caddy/
+[3] https://www.youtube.com/watch?v=PdkTn6XhdMQ
+[4] https://docs.vultr.com/how-to-install-caddy-webserver-on-ubuntu-24-04
+[5] https://caddyserver.com/docs/quick-starts/reverse-proxy
+[6] https://caddy.community/t/using-caddy-in-ubunutu-to-reverse-proxy-to-local-devices/20469
+[7] https://caddyserver.com/docs/install
+[8] https://amirpourmand.ir/posts/2024/caddy-reverse-proxy/
+[9] https://www.rosehosting.com/blog/how-to-install-caddy-web-server-on-ubuntu-22-04/
+[10] https://linuxiac.com/how-to-set-up-caddy-as-reverse-proxy/
