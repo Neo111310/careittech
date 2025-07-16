@@ -12,6 +12,7 @@ Technische Anleitungen für Allgemeine Dinge und Linux
 - [Ubuntu CLI Cheat-Sheet](https://github.com/MartinCareJestl/careittech/blob/main/dokumente/Ubuntu-CLI-cheat-sheet.md)
 - [NGINX Default User Settings](https://github.com/MartinCareJestl/careittech/blob/main/dokumente/Nginx-Wisssen.md)
 - [Praktische Linux Befehle](https://github.com/MartinCareJestl/careittech/blob/main/dokumente/Praktische-Linux-Befehle.md)
+- [Reverse Proxy Caddy](https://github.com/MartinCareJestl/careittech/blob/main/dokumente/reverse-proxy-caddy.md)
 ### Virtualisierung
 - [CASA-OS Install](https://github.com/MartinCareJestl/careittech/blob/main/dokumente/CasaOSInstall.md)
 ## MAC
