@@ -9,6 +9,7 @@ Technische Anleitungen für Allgemeine Dinge und Linux
 - [postfix SMTP Install](https://github.com/MartinCareJestl/careittech/blob/main/dokumente/postfix-smtp-install.md)
 - [Proxmox Messages an Discord](https://github.com/MartinCareJestl/careittech/blob/main/dokumente/proxmox-discord.md)
 - [Caddy Reverse Proxy Simpel Installieren](https://github.com/MartinCareJestl/careittech/blob/main/dokumente/reverse-proxy-caddy.md)
+- [UBUNTU IP Adresse Äandern](https://github.com/MartinCareJestl/careittech/blob/main/dokumente/ubuntu-change-ip.md)
 ### Allgemein
 - [Ubuntu CLI Cheat-Sheet](https://github.com/MartinCareJestl/careittech/blob/main/dokumente/Ubuntu-CLI-cheat-sheet.md)
 - [NGINX Default User Settings](https://github.com/MartinCareJestl/careittech/blob/main/dokumente/Nginx-Wisssen.md)
