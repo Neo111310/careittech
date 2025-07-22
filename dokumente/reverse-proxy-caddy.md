@@ -51,6 +51,22 @@ deinedomain.de {
 ```
 Diesre eintrag ins Config File ***! Vorsicht UUNerlin nicht Dash !***
 
+Für Mehrere Ziele:
+```
+wlan.labor.mydomain.com {
+  reverse_proxy 10.10.10.10:80
+}
+
+fw.labor.mydomain.com {
+  reverse_proxy 10.10.10.1:80
+}
+
+web.labor.mydomain.com {
+  reverse_proxy 10.10.10.5:8080
+}
+
+```
+
 Restarte caddy
 ```
 systemctl restart caddy
