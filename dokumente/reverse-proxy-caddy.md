@@ -67,3 +67,14 @@ systemctl restart caddy
 [8] https://amirpourmand.ir/posts/2024/caddy-reverse-proxy/
 [9] https://www.rosehosting.com/blog/how-to-install-caddy-web-server-on-ubuntu-22-04/
 [10] https://linuxiac.com/how-to-set-up-caddy-as-reverse-proxy/
+
+# Simpler Webserver mit Python
+Alternativ, wenn es wirklich nur für ganz simple Tests sein soll, kann man auch ganz minimalistisch mit Python einen Webserver starten:
+```
+bash
+cd /pfad/zum/ordner
+python3 -m http.server 8080
+```
+Dies startet einen schnellen HTTP-Server auf Port 8080, ideal für temporäre Tests ohne Installation.
+
+Für dauerhafte oder produktive Dienste ist jedoch Apache (oder ein anderer Webserver wie Nginx) zu empfehlen.
