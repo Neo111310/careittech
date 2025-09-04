@@ -4,6 +4,10 @@ MS Graph Installieren
 ```
 Install-Module Microsoft.Graph -Scope CurrentUser
 ```
+Login Azure
+```
+Connect-MgGraph  
+```
 
 
 Userliste Anzeigen
