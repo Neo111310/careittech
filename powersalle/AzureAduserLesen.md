@@ -8,7 +8,10 @@ Login Azure
 ```
 Connect-MgGraph  
 ```
-
+Logout Azure
+```
+Disconnect-MgGraph
+```
 
 Userliste Anzeigen
 ```
