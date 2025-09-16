@@ -98,7 +98,7 @@ Für dauerhafte oder produktive Dienste ist jedoch Apache (oder ein anderer Webs
 # Reverse Proxy auf Selbst ausgestellte Zertifikate
 
 ```
-www.buecherei-baden.at {
+www.meinserver.at {
 	reverse_proxy https://10.26.100.4:443 {
 		transport http {
 			tls_insecure_skip_verify
