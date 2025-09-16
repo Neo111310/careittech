@@ -1,6 +1,11 @@
 # careittech
 Technische Anleitungen für Allgemeine Dinge und Linux
 
+Keyboadr auf DE
+```
+setxkbmap de
+```
+
 # Inhaltsverzeichniss
 ## Allgemeines
 - [Tickets Daten](https://github.com/MartinCareJestl/careittech/blob/main/dokumente/SupportTicketErstellen.md)
