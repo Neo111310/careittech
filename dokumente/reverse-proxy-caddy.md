@@ -94,3 +94,17 @@ python3 -m http.server 8080
 Dies startet einen schnellen HTTP-Server auf Port 8080, ideal für temporäre Tests ohne Installation.
 
 Für dauerhafte oder produktive Dienste ist jedoch Apache (oder ein anderer Webserver wie Nginx) zu empfehlen.
+
+# Reverse Proxy auf Selbst ausgestellte Zertifikate
+
+```
+www.buecherei-baden.at {
+	reverse_proxy https://10.26.100.4:443 {
+		transport http {
+			tls_insecure_skip_verify
+		}
+	}
+}
+```
+
+Funktioniert jedoch nur wenn der Proxy über Internet erreichbar ist.
