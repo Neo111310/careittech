@@ -55,3 +55,9 @@ N8N_HOST=172.18.9.25
 WEBHOOK_URL=https://n8n.mintakalab.blabla.org/
 N8N_EDITOR_BASE_URL=https://n8n.mintakalab.blabla.org/
 ```
+Dienst Neu Laden
+```
+systemctl daemon-reload
+systemctl restart n8n
+```
+
