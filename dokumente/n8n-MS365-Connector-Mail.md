@@ -44,3 +44,14 @@ Mit dieser Integration kannst du Outlook in Automatisierungen mit n8n-Workflows 
 [10](https://n8n.io/workflows/6226-automate-daily-outlook-calendar-digests-to-microsoft-teams/)
 
 
+# n8n Config
+unter /opt/n8n.env Editor Eintragen\
+**Muster**
+```
+N8N_SECURE_COOKIE=false
+N8N_PORT=5678
+N8N_PROTOCOL=http
+N8N_HOST=172.18.9.25
+WEBHOOK_URL=https://n8n.mintakalab.blabla.org/
+N8N_EDITOR_BASE_URL=https://n8n.mintakalab.blabla.org/
+```
