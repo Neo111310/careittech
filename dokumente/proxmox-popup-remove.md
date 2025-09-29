@@ -75,4 +75,4 @@ Das Entfernen der Warnmeldung ist technisch möglich und wird von vielen Nutzern
 	11. https://forum.proxmox.com/threads/turn-off-proxmox-primary-monitor.120769/
 
 Aus <https://www.perplexity.ai/search/wie-schalte-ich-bei-proxmox-de-JSS0oZW1STyDH2DiUsJ5fg> 
-<img width="437" height="2477" alt="image" src="https://github.com/user-attachments/assets/9cb09cad-31ca-4e13-9390-87aeee04e97b" />
+
