@@ -117,3 +117,41 @@ Für weitere Anpassungen siehe die Ubuntu- und Samba-Dokumentation.[3][6][4]
 [8](https://forum.ubuntuusers.de/topic/samba-fileserver-installieren/)
 [9](https://www.youtube.com/watch?v=k3yvG4zDJFQ)
 [10](https://ubuntu.com/tutorials/install-and-configure-samba)
+
+# WEb Admin mit cockpit
+
+Installieren
+```
+sudo apt install cockpit
+```
+## SMB Addon
+
+Ja, es gibt für Linux Cockpit ein SMB-Plugin. Ein bekanntes Plugin ist das "cockpit-file-sharing" von 45Drives, das sowohl Samba (SMB) als auch NFS Shares über die Cockpit Weboberfläche verwaltet. Damit können Samba-Freigaben komfortabel erstellt, bearbeitet und verwaltet werden, inklusive globaler Einstellungen, Benutzer- und Gruppenmanagement (über ein separates Plugin), sowie spezifischer Optionen wie Windows ACLs, Schattenkopien und mehr. Das Plugin ist sowohl für RHEL-basierte Systeme als auch für Debian/Ubuntu verfügbar.
+
+Zusätzlich existiert ein weiteres SMB-Plugin für Cockpit namens "cockpit-smb-plugin", das Samba-Shares ebenfalls über die Cockpit-Oberfläche verwaltbar macht. Dieses Plugin ist jedoch als etwas roh und experimentell beschrieben.
+
+Die Installation des 45Drives cockpit-file-sharing Plugins erfolgt beispielsweise unter Ubuntu mit:
+```bash
+curl -sSL https://repo.45drives.com/setup | sudo bash
+sudo apt-get install cockpit-file-sharing -y
+```
+Unter RHEL-basierten Systemen mit dnf kann das RPM direkt installiert werden.
+
+Für das Samba-Management mit Cockpit wird natürlich Samba auf dem System benötigt.
+
+Quellen für weitere Details und Installationsanleitungen:
+- Cockpit mit Samba Shares Management (45Drives plugin)
+- GitHub repo: enira/cockpit-smb-plugin
+- TechRepublic Artikel über Cockpit und Samba Shares[1][2][3]
+
+[1](https://www.techrepublic.com/article/cockpit-creating-samba-shares-simple/)
+[2](https://github.com/enira/cockpit-smb-plugin)
+[3](https://github.com/45Drives/cockpit-file-sharing)
+[4](https://www.reddit.com/r/homelab/comments/fyx94z/best_way_to_manage_samba_shares_linuxmint/)
+[5](https://www.reddit.com/r/Proxmox/comments/1gu6xtr/confused_about_cockpit_samba_share_in_an_lxc/)
+[6](https://www.reddit.com/r/Proxmox/comments/1fn81gy/cockpit_file_sharing_smb_config_file/)
+[7](https://discussion.fedoraproject.org/t/smb-conflicts-using-cockpit-45drives-plugins/82111)
+[8](https://docs.openitcockpit.io/development/setup-dev-env/)
+[9](https://www.youtube.com/watch?v=l92lp9C2gXg)
+[10](https://cockpit-project.org/applications)
+
