@@ -19,3 +19,6 @@ Zusammengefasst: Bitwarden hat reagiert und wichtige Patches geliefert, jedoch n
 [7](https://www.securityweek.com/password-managers-vulnerable-to-data-theft-via-clickjacking/)
 [8](https://community.bitwarden.com/t/dom-based-extension-clickjacking/88441)
 [9](https://www.reddit.com/r/selfhosted/comments/1mx4cn2/vulnerability_for_all_using_vaultwarden_with/)
+
+
+Check auf OnePassword
