@@ -68,3 +68,40 @@ Falls du weitere Details oder Hilfe bei der Einrichtung auf Windows oder anderen
 [16] https://wiki.ubuntuusers.de/SSH/
 [17] https://gridscale.io/community/tutorials/per-ssh-mit-cloud-server-verbinden/
 [18] https://community.hetzner.com/tutorials/howto-ssh-key/de/
+
+# Mehrere Zertifikate gleichzeitig
+
+Um mit zwei oder mehreren SSH-Schlüsseln auf einem Rechner zu arbeiten, nutzt man die SSH-Konfigurationsdatei, die unter ~/.ssh/config liegt. Dort kann man für jeden Server oder Dienst eine eigene Sektion anlegen und den passenden privaten Schlüssel angeben.
+
+### Einfach erklärt:
+
+1. Erstelle für jeden SSH-Schlüssel (z.B. für verschiedene Server oder Git-Konten) ein eigenes Schlüsselpaar mit ssh-keygen.
+2. Speichere die Schlüssel unter unterschiedlichen Namen in deinem ~/.ssh Verzeichnis.
+3. Erstelle oder bearbeite die Datei ~/.ssh/config und füge für jeden Host (Server/Service) eine Konfiguration hinzu, z.B.:
+
+```
+Host server1
+  HostName server1.example.com
+  User benutzername
+  IdentityFile ~/.ssh/id_rsa_server1
+
+Host gitlab
+  HostName gitlab.com
+  User git
+  IdentityFile ~/.ssh/id_rsa_gitlab
+```
+
+4. Beim Verbinden mit `ssh server1` oder beim Klonen eines Git-Repos benutzt SSH automatisch den zugewiesenen Schlüssel.
+5. Du kannst auch einen SSH-Agenten (ssh-agent) nutzen, um deine Schlüssel zu laden und nicht jedes Mal das Passwort eingeben zu müssen.
+
+So kannst du bequem mit mehreren Schlüsseln auf einem Rechner arbeiten, ohne ständig manuell den Schlüssel wechseln zu müssen.[1][3][4]
+
+[1](https://mobile.fhstp.ac.at/allgemein/ssh-schluessel-gitlab/)
+[2](https://www.reddit.com/r/hetzner/comments/sq7ikt/adding_second_ssh_key_to_cloud_server_possible/)
+[3](https://www.hosting.de/helpdesk/anleitungen/server/openssh_server/)
+[4](https://www.ionos.at/digitalguide/server/sicherheit/ssh-keys-fuer-ihre-netzwerkverbindung-nutzen/)
+[5](https://www.reddit.com/r/linuxquestions/comments/hlyp4v/is_it_bad_to_use_the_same_ssh_key_on_multiple/)
+[6](https://www.computerbase.de/forum/threads/ssh-mehrere-schluesselpaare.1065827/)
+[7](https://forum.linuxguides.de/index.php?thread%2F7167-mehrere-ssh-key-s-nutzen%2F)
+[8](https://forum.netcup.de/administration-eines-server-vserver/vserver-server-kvm-server/10110-umgang-mit-ssh-keys-und-passw%C3%B6rtern-bei-mehreren-servern/)
+[9](https://docs.github.com/de/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
