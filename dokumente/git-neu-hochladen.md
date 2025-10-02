@@ -8,6 +8,7 @@ Ein direktes Hochladen einer Zip-Datei als neues Repository ist in Gitea nicht m
 - Ein neues, leeres Repository in Gitea anlegen.
 - Die lokale Repository-Konfiguration um die Remote-URL von Gitea ergänzen (`git remote add origin <URL>`).
 - Die Dateien mit `git push origin main` (bzw. `master`, je nach Standard-Branch) ins Remote-Repository hochladen.[3][7]
+- In Linux `git push --set-upstream origin master' geht besser
 
 ### Gitea-Webinterface
 
