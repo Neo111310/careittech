@@ -26,3 +26,6 @@ Code
 ```
 sudo dd bs=4M if=/home/user/Downloads/linux.iso of=/dev/sdb status=progress oflag=sync
 ```
+
+
+Danke
