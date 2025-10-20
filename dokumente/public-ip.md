@@ -44,3 +44,5 @@ Quellen:
 [8] Private Adressbereiche https://www.ibm.com/docs/de/networkmanager/4.2.0?topic=translation-private-address-ranges
 [9] Reservierte IPv4-Adressen https://www.heise.de/Reservierte-IPv4-Adressen-3484192.html
 [10] IPv4 https://de.wikipedia.org/wiki/IPv4
+
+Diese Info hilft sehr ...
