@@ -45,3 +45,13 @@ Wichtig: Wenn dein Proxmox Teil eines Clusters ist, kann die Änderung der IP-Ad
 [8] https://forum.netcup.de/administration-eines-server-vserver/vserver-server-kvm-server/9763-proxmox-vm-ip-zuweisen/
 [9] https://forum.proxmox.com/threads/proxmox-ve-vorbereiten-dann-ip-adresse-%C3%A4ndern.157816/
 [10] https://www.youtube.com/watch?v=-HgkigKCNMw
+
+
+# Proxmox Monitor
+
+
+ProxMenux auf GitHub: https://github.com/MacRimi/ProxMenux
+
+shell start mit 
+> menu
+> Webport 8000
